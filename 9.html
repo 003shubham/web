@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank login demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 800px;
+            height: 667px;
+            border: 2px solid #000;
+            margin: 10px auto 10px ;
+            background-color: slategray;
+        }
+        .header{
+            width: 761px;
+            height: 90px;
+            border: 1px solid #000;
+            margin: 10px auto 10px ;
+            font-size: 65px;
+            color: #fff;
+            background-color: black;
+            text-align: center;
+            box-shadow: 0 0 5px 2px;
+            text-shadow: 0 0 10px;
+
+        }
+        .menu{
+            width: 761px;
+            height: 40px;
+            border: 1px solid #000 ;
+            margin: 10px auto 10px ;
+            background-color: darkgray;
+        }
+        .menu ul li{
+            float: left;
+            margin-left: 112px;
+            margin-top: -1px;
+        }
+        .menu ul li a{
+            color: black;
+            font-size: 38px;
+            text-decoration: none;
+        }
+        .menu ul li a:hover{
+            color: blue;
+            /* font-size: 60px; */
+        }
+        .content{
+            width: 761px;
+            height: 438px;
+            border: 1px solid #000;
+            margin: 10px auto 10px ;
+            border-radius: 5%;
+            background-color: floralwhite;
+        }
+
+        ul{
+            list-style: none;
+        }
+        .content ul li{
+            float: left;
+            margin-left: 15px;
+            margin-top: 76px;
+        }
+        .content ul li a{
+            color: black;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .content ul li a:hover{
+            color: blueviolet;
+        }
+        .form{
+            width: 320px;
+            height: 168px;
+            border: 1px solid #000;
+            margin: 23px 22px 2px 422px;
+            border-radius: 5%;
+        }
+        .form form table tr td{
+            font-size: 30px;
+            color: dimgray;
+        } 
+
+        .one{
+            width: 169px;
+            height: 104px;
+            /* border: 1px solid black; */
+            float: left;
+            margin-left: 10px;
+        }
+        .footer{
+            width: 761px;
+            height: 40px;
+            border: 1px solid #000;
+            margin: 10px auto 10px ;
+            font-size: 40px;
+            background-color: lightsteelblue;
+            color: red;
+            text-align: center;
+        }
+        .clear-all{
+            clear: both;
+        }
+        img{
+            width: 169px;
+            height: 104px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="header">PNB Bank</div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            
+            <div class="form">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>User Name</td>
+                            <td>
+                                <input type="text" placeholder="Enter user Name" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Login</a></td>
+                        </tr>
+                    </table>
+                </form>
+
+                <ul>
+                    <li><a href="#">Forget Password</a></li>
+                    <li><a href="#">New User</a></li>
+                </ul>
+                <br class="clear-all"/>
+            </div>
+
+            <ul>
+                <li>
+                    <div class="one">
+                        <img src="image/21.jpg" alt="">
+                    </div>
+                    <div class="one">
+                        <img src="image/22.jpg" alt="">
+
+                    </div>
+                    <div class="one">
+                        <img src="image/23.png" alt="">
+
+                    </div>
+                    <div class="one">
+                        <img src="image/24.png" alt="">
+
+                    </div>
+                </li>
+            </ul>
+            <br class="clear-all"/>
+
+        </div>
+        <div class="footer">
+            Thanks for Visit.....
+        </div>
+    </div>
+</body>
+</html>

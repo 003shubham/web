@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    
+}
+.one
+{
+    float: left;
+    margin: 20px auto;
+}
+.clear-all{
+    clear: both;
+}
+img{
+    /* height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    
+
+}
+.hover_effect{
+    /* width: 169px;
+    height: 104px; */
+    /* box-shadow: 0 0 20px 2px;
+    overflow: hidden;
+    position: relative;
+    transition: .3s; */
+}
