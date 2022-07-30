@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: aqua;
+
+        }
+        .box{
+            width: 600px;
+            height: 500px;
+            border: 1px solid white;
+            background-color: white;
+            margin: 20px auto;
+            border-right: 30px solid blue;
+            
+            /* text-align: left; */
+        }
+        .inbox{
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        .account{
+            /* text-align: left; */
+            font-size: 40px;
+            color: blue;
+            /* margin-bottom: 60px; */
+            /* margin-top: 60px; */
+        }
+        .name{
+            /* text-align: left; */
+            /* margin-bottom: 20px; */
+            font-size: 20px;
+            line-height: 3;
+
+
+        }
+        .textbox{
+            width: 400px;
+            height: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            /* line-height: 2; */
+
+
+        }
+        .float{
+            float: left;
+            font-size: 18px;
+
+        }
+        .clear-all{
+            clear: both;
+        }
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 152px;
+        }
+        .log{
+            margin: 12px auto;
+            width: 400px;
+            height: 50px;
+            color: white; 
+            background-color: blue;
+            border: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="inbox">
+        <label class="account">ACCOUNT LOGIN</label><br>
+        <label class="name">USER NAME </label><br>
+        <input type="text" class="textbox" placeholder="Enter User Name"><br>
+        <label class="name">PASSWORD</label><br>
+        <input type="password" class="textbox"><br>
+        <span class="float">
+            <input type="checkbox" value="Remember Me" >
+            <label >Remember Me</label>
+            <a href="#" >Forget Password?</a>
+        </span>
+        
+        <br class="clear-all">
+        <input type="button" value="LOG IN" class="log">
+        </div>
+
+    </div>
+</body>
+</html>
